@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f9fbfb;
+    width: 100%;
+    height: 100vh;
+}
+
+.seccion-cards{
+    margin: 36px 16px;
+    /* padding: 10px 24px; */
+
+    .title{
+        font-size: 4rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        border-bottom: 5px solid #000000;
+    }
+
+}
+
+.cards{
+    margin: 10px 24px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 16px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.character{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.character-info{
+    padding: 3px 12px;
+}
+
+#id-character{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.character-info h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.character-info p{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-character{
+    width: 250px;
+    height: 185px;
+    object-fit: cover;
+}
+
+#sentinela{
+    height: 20px;
+    background-color: transparent;
+}
